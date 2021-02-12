@@ -1,0 +1,95 @@
+.sign__in {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%; 
+    background:  #1c2237;
+}
+.sign__header{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 2rem;
+    font-weight: 550;
+    color: #fff;
+    padding-bottom: 15px;   
+}
+
+.sign__logo {
+  display: flex;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+
+.sign__box {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 49%;
+    left: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.sign__box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.sign__box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sign__box input[type='text'], input[type='password'] {
+   border: none;
+   border-bottom: 1px solid #fff;
+   background: transparent;
+   outline: none;
+   height: 40px;
+   color: #fff;
+   font-size: 16px;
+}
+
+.sign__box input[type='submit'] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.sign__box input[type='submit']:hover {
+    cursor: pointer;
+    background: #b39179;
+    color: #000;
+    font-weight: 600;
+}
+
+.sign__box a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.sign__box a:hover {
+    color: #ffc107;
+}
+
+

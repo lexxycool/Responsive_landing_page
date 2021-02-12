@@ -1,0 +1,13 @@
+.slide__layout{
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    overflow: hidden; 
+}
+
+.slide__image {
+    width: 100%;
+    height: auto;
+}
+
+
