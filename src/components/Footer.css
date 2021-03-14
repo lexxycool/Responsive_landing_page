@@ -87,6 +87,7 @@
     .text__testimonials{
         font-size: 15px;
         color: #000;
+        margin-left: 10px;
     }
 
     .contact__info {

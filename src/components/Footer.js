@@ -56,7 +56,7 @@ function Footer() {
 
            </div>
 
-            <div className="contact">
+            <div className="contact" id='contact'>
 
                 <div className='contact__info'>
                     About Us

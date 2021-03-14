@@ -1,9 +1,10 @@
 import React from 'react';
-import './Home.css'
+import './Home.css';
+import Media from './Media';
 
 function Home() {
     return (
-        <div className='home'>
+        <div className='home' id='home'>
             
             <div id='mission' className='home__container'>
 
@@ -16,7 +17,7 @@ function Home() {
 
             </div>
 
-            <div className='featured__Tea'>
+            <div className = 'featured__Tea' id='menu'>
                 <span>
                     <h2>Featured Tea</h2>
                     <h4>What's Steeping at LexxyCool Tea Stop</h4>
@@ -48,6 +49,10 @@ function Home() {
                     </div>
                 </div>
 
+            </div>
+
+            <div>
+                <Media />
             </div>
 
             <h3 className='Tea__tip'>...there's always a good time for some Tea</h3>

@@ -1,0 +1,30 @@
+.video-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    margin-top: 40px;
+
+}
+
+.video-container iframe {
+  margin: 20px 30px 70px 30px;
+}
+
+h2 {
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    color: cornflowerblue;
+}
+
+@media screen and (max-width: 600px) {
+    .video-container {
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
