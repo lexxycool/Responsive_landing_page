@@ -56,6 +56,18 @@ function Footer() {
 
            </div>
 
+            <form className='form' onSubmit='https://www.freecodecamp.com/email-submit'>
+               <input
+                    type='email'
+                    id= 'email'
+                    placeholder= 'your email address...'  
+                    formNoValidate='false'       
+               />
+               <p></p>
+               <button type='submit' id='submit' value='submit'>Sign Up</button>
+               
+            </form>
+
             <div className="contact" id='contact'>
 
                 <div className='contact__info'>

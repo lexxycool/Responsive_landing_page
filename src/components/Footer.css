@@ -40,6 +40,26 @@
     color: grey;
 }
 
+.form {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 15px;
+
+}
+
+.form input {
+    font-size: 16px;
+    padding: 0px 100px 0px 5px;
+}
+
+.form button {
+    font-size: 18px;
+    background-color: darkgoldenrod;
+    font-weight: 600;
+    padding: 0px 20px 0px 20px;
+    border-radius: 3px;
+
+}
 .contact {
     background-color: grey;
     display: flex;
